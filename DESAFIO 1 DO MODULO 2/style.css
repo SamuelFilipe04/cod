@@ -1,0 +1,134 @@
+
+@charset "UTF-8";
+@font-face {
+    font-family: minhafonte ;
+    src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #a1e94ea6;
+    text-indent: 30px;
+}
+header {
+    background-image: linear-gradient(to bottom, #3AD07E, #32B16A, #2EA764, #2D9E60, #227948, #1E6B40, #1A5C38);
+   text-align: center;
+    margin: 0px;
+    box-shadow: 2px 3px 4px 1px rgba(0, 0, 0, 0.479);
+    padding: 3px 3px 0px 3px;
+    color: white;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    text-align: left; 
+
+}
+
+ #noticias:hover {
+   
+  background-color:  #3AD07E;
+border: 1px solid #1d704244;
+  
+  
+  }
+  #curiosidades:hover {
+   
+  background-color: #3AD07E;
+  border: 1px solid #1d704244;
+  
+  }
+  #home:hover {
+    
+  background-color:#3AD07E;
+  border: 1px solid #1d704244;
+  }
+  #faleconosco:hover {
+  background-color: #3AD07E;
+  border: 1px solid #1d704244;
+  }   
+ 
+
+
+
+  main {
+background-color: white;
+width:  1163px;
+padding: 10px;
+margin: auto;
+display: block;
+box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.479);
+border-radius: 6px;
+
+  }
+  #principal {
+    font-family: "minhafonte";
+  }
+  .fonte{
+    font-family: 'minhafonte';
+    background-image: linear-gradient(to right, #97d288d5, #c8dfc2, #dae9d7, white);
+  }
+  a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: rgba(207, 81, 81, 0.596);
+  }
+  #video {
+    background-color: #1A5C38;
+   text-align: center;
+ margin: 0px -10px 0px -10px;
+ padding: 24px 10px 21px 10px;
+  }
+
+  article {
+    background-color: #32df80;
+    border-radius: 6px;
+    padding: 3px;
+    margin: 20px;
+   
+  }
+  article > nav > p {
+    
+    padding: 10px 0px;
+    color: white;
+    
+  }
+  article > nav {
+   
+    background-color: #1A5C38;
+    border-radius: 5px;
+    box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.425);
+    padding: 3px;
+    margin: 0;
+   color: white;
+
+  }
+
+  ul {
+        column-count: 2; 
+        column-gap: 20px; 
+        list-style-type: initial ; 
+        padding-left: 20px; 
+  }
+  #mensagem {
+    text-align: center;
+  }
+
+  footer{
+    background-color: #0f3b23;
+    text-align: center;
+    color: white;
+   padding: 1px;
+  }
+ #img {
+    display: block;
+ }
+.imagem {
+text-align: center;
+}
