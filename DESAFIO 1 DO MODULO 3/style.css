@@ -30,7 +30,7 @@ header p {
     font-weight: normal;
 }
 
-header a {
+ a {
  color: white;
  text-decoration: none;
  
@@ -47,19 +47,42 @@ main p {
     line-height: 100px;
 }
 
- 
-#back {
-    color: white;
-
-  background-image: url(imagens/background001.jpg);
-}
-
+ #t1 {
+   background-image: url(imagens/background001.jpg);
+   background-attachment: fixed;
+   padding: 10px;
+   
+   
+ }
 .texto {
-    border: 10px solid red;
-    padding: auto;
+ 
+    padding: 0px;
+    width: 534px;
+    background-color: rgba(7, 7, 7, 0.623);
+    color: white;
+    padding: 5px;
+    margin-left: 30px;
+  
 }
 
+#t2 {
+    background-image: url(imagens/background002.jpg);
+   background-attachment: fixed;
+   padding: 10px;
+   background-position: center right;
+   
+    
+}
 
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font: normal normal 18px arial, sans-serif;
+    margin: 0px;
+ 
+}
 
 
 
