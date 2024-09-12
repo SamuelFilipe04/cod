@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*typical device breakpoints
+_________________________
+pequenas telas: ate 600px
+celulares: 600px ate 768px
+tablets: 768px ate 992px
+desktop: 992px ate 1200px
+grandes telas: acima de 1200px
+*/
+
+
+@media print {
+
+}
+@media screen and (min-width: 768px)  and  (max-width: 992px) /*Tablet */ {
+body {
+    background-image: url( ../back-tablet.jpg);
+}
+    
+}
+ @media screen and (min-width: 992) and (max-width: 1200px) /* PC OU DESKTOP */{
+    
+ }
+
+ @media screen and (min-width: 1200px) /* TELEVISAO OU GRANDES TELAS */ {
+    
+ }
